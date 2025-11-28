@@ -2,13 +2,14 @@
 
 questions =("who is PM of Canada:",
             "how many tires car have:",
-            "Why are you gay?:",
+            "Why are you Jatt?:",
             "Who are you?:")
 
 options = (("A: Babbu Maan","B: Harman Cheema", "C:Sonu Sito","D: Mark Carney"),
            ("A:0","B:4","C:18","D:20"),
-           ("A:I am Gay","B:Whos says I am Gay?","C:Bhatti is Gay","D:Not Gay"),
-           ("A:Boy","B:Girl","C:Jatt","D:Nigger banda"))
+           ("A:I am Jatt","B:Whos says I am Jatt?","C:Bhatti is Jatt","D:Not Jatt"),
+           ("A:Boy","B:Girl","C:Jatt","D:banda")
+          )
 
 answers = ('D','B','C','D')
 
@@ -23,5 +24,6 @@ for question in questions:
         print(option)
         
         question_num += 1
+
 
 
